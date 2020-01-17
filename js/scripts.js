@@ -12,11 +12,11 @@ $(document).ready(function(){
     if (response) {
       $("form").hide();
       if (response <= 9) {
-        $("#result1").show();
+        $("#result1").fadeIn();
       } else if (10 <= response && response <= 13) {
-        $("#result2").show();
+        $("#result2").fadeIn();
       } else {
-        $("#result3").show();
+        $("#result3").fadeIn();
       }
     } else {
       alert ("One or more questions were missed! Please try again.");
@@ -24,7 +24,7 @@ $(document).ready(function(){
 
     event.preventDefault();
   });
-  
+
   $("#reset").click(function(){
     document.location.reload(true);
   });
