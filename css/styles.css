@@ -35,3 +35,11 @@ h1 {
 #result1, #result2, #result3 {
   display: none;
 }
+
+.results p {
+  color:red;
+}
+
+.results .panel-body {
+  outline: 2px solid black;
+}
