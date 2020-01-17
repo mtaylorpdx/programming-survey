@@ -11,15 +11,18 @@ $(document).ready(function(){
 
     var response = (q1+q2+q3+q4+q5+q6)
 
-    if (response <= 6) {
-      alert ("tier 1");
-    } else if (7 <= response && response <= 12) {
-      alert ("tier2");
-    } else if (13 <= response) {
-      alert ("tier3");
+    if (response) {
+      if (response <= 9) {
+        alert ("tier 1");
+      } else if (10 <= response && response <= 13) {
+        alert ("tier2");
+      } else {
+        alert ("tier3");
+      }
     } else {
-     alert (nope);
+      alert ("One or more questions were missed! Please try again.");
     }
+
 
     alert(response)
 
