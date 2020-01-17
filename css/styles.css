@@ -2,9 +2,19 @@ body {
   background-image: url("../img/background.jpg")
 }
 
+.btn {
+  float: right;
+}
+
 footer {
   text-align: right;
   padding-right: 200px;
+}
+
+form .panel {
+  max-width: 300px;
+  max-height: 300px;
+  margin-left: 250px;
 }
 
 h1 {
@@ -16,4 +26,8 @@ h1 {
   background-color: white;
   font-style: oblique;
   font-family: arial;
+}
+
+.panel-heading {
+  background-color: white !important;
 }

@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $("form#survey").submit(function(event) {
-    event.preventDefault();
+
 
     var q1 = parseInt($("input:radio[name=question1]:checked").val());
     var q2 = parseInt($("input:radio[name=question2]:checked").val());
@@ -9,8 +9,20 @@ $(document).ready(function(){
     var q5 = parseInt($("input:radio[name=question5]:checked").val());
     var q6 = parseInt($("input:radio[name=question6]:checked").val());
 
-    var response = (q1+q2+q3+q4+q5)
+    var response = (q1+q2+q3+q4+q5+q6)
+
+    if (response <= 6) {
+      alert ("tier 1");
+    } else if (7 <= response && response <= 12) {
+      alert ("tier2");
+    } else if (13 <= response) {
+      alert ("tier3");
+    } else {
+     alert (nope);
+    }
+
     alert(response)
 
+    event.preventDefault();
   });
 });
