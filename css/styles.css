@@ -1,5 +1,6 @@
 body {
-  background-image: url("../img/background.jpg")
+  background-image: url("../img/background.jpg");
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .btn {
@@ -22,14 +23,30 @@ h1 {
   font-size: 36px !important;
 }
 
+h4 {
+  font-size: 32px;
+  font-style: bold;
+}
+
 .jumbotron {
   background-color: white;
   font-style: oblique;
   font-family: arial;
 }
 
+.panel {
+  border: 1px solid darkblue;
+  box-shadow: 2px 4px;
+}
+
+.panel-body {
+  font-size: larger;
+}
+
 .panel-heading {
+  border: 1px solid darkblue;
   background-color: white !important;
+  font-size: large;
 }
 
 #result1, #result2, #result3 {
@@ -45,5 +62,6 @@ h1 {
 }
 
 .results .panel-body {
-  outline: 2px solid black;
+  outline: 2px solid darkblue;
+  box-shadow: 5px 10px;
 }
