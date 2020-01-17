@@ -31,3 +31,7 @@ h1 {
 .panel-heading {
   background-color: white !important;
 }
+
+#result1 {
+  display: none;
+}
