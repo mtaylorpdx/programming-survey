@@ -24,4 +24,8 @@ $(document).ready(function(){
 
     event.preventDefault();
   });
+  
+  $("#reset").click(function(){
+    document.location.reload(true);
+  });
 });
