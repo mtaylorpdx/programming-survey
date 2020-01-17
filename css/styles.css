@@ -12,7 +12,7 @@ footer {
 }
 
 form .panel {
-  max-width: 300px;
+  max-width: 600px;
   max-height: 300px;
   margin-left: 250px;
 }
@@ -32,6 +32,6 @@ h1 {
   background-color: white !important;
 }
 
-#result1 {
+#result1, #result2, #result3 {
   display: none;
 }
