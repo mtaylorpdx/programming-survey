@@ -1,5 +1,6 @@
 $(document).ready(function(){
-  $("#survey").submit(function(event) {
+  $("form#survey").submit(function(event) {
+    event.preventDefault();
 
     var q1 = parseInt($("input:radio[name=question1]:checked").val());
     var q2 = parseInt($("input:radio[name=question2]:checked").val());
@@ -8,6 +9,8 @@ $(document).ready(function(){
     var q5 = parseInt($("input:radio[name=question5]:checked").val());
     var q6 = parseInt($("input:radio[name=question6]:checked").val());
 
-    event.preventDefault();
+    var response = (q1+q2+q3+q4+q5)
+    alert(response)
+
   });
 });
