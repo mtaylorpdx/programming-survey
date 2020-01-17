@@ -1,3 +1,14 @@
 body {
   background-image: url("../img/background.jpg")
 }
+
+h1 {
+  text-align: center;
+  font-style: oblique;
+  font-family: arial;
+  font-size: 36px !important;
+}
+
+.jumbotron {
+  background-color: white;
+}
