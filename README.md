@@ -11,10 +11,7 @@ _This project application is a mock survey that takes user a/b/c input and uses 
 ## Setup/Installation Requirements
 
 * Open Terminal
-* Enter
-'''
-git clone https://github.com/mtaylorpdx/programming-survey
-'''
+* Enter $ git clone https://github.com/mtaylorpdx/programming-survey
 * Open the project folder
 * Open index.html
 * Select an answer for each question
